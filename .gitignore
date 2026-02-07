@@ -37,3 +37,77 @@ runs/
 # forge generated resources cache
 /src/generated/resources/.cache/
 /reference
+
+# logs
+*.log
+*.log.*
+
+# windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+*.bak
+*.backup
+*.old
+
+# cursor/claude ai
+.claude/
+.cursor/
+
+# local configuration files
+*.local
+*.local.*
+settings.local.json
+local.properties
+
+# migration and temporary documentation
+MIGRATION_PLAN.md
+
+# gradle wrapper (should be committed, but adding for safety)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# java
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+!gradle/wrapper/gradle-wrapper.jar
+
+# misc
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord Community Support
+    url: https://discord.gg/your-server
+    about: Ask questions and get community support
+  - name: CurseForge Support
+    url: https://www.curseforge.com/minecraft/mc-mods/sync-forge
+    about: Check the CurseForge page for downloads and updates

@@ -2,7 +2,6 @@ package net.sumik.sync.client.gui;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.sumik.sync.api.shell.ShellStateContainer;
 import net.sumik.sync.client.gl.MSAAFramebuffer;
 import net.sumik.sync.client.gui.hud.HudController;

@@ -2,11 +2,11 @@ package net.sumik.sync.common.config;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.config.ModConfigEvent;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.sumik.sync.Sync;
 import net.sumik.sync.api.shell.ShellPriority;
 
@@ -399,11 +399,11 @@ public class SyncConfig {
 
         default EntityType<?> getEntityType() {
             ResourceLocation id = ResourceLocation.tryParse(this.entityId());
-            return id == null ? EntityType.PIG : ForgeRegistries.ENTITY_TYPES.getValue(id);
+            return id == null ? EntityType.PIG : BuiltInRegistries.ENTITY_TYPE.get(id);
         }
 
         static EnergyMapEntry of(EntityType<?> entityType, long outputEnergyQuantity) {
-            return of(ForgeRegistries.ENTITY_TYPES.getKey(entityType).toString(), outputEnergyQuantity);
+            return of(BuiltInRegistries.ENTITY_TYPE.getKey(entityType).toString(), outputEnergyQuantity);
         }
 
         static EnergyMapEntry of(String id, long outputEnergyQuantity) {

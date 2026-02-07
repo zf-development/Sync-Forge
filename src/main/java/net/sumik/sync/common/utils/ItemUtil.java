@@ -10,7 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.sumik.sync.common.config.SyncConfig;
 
 public final class ItemUtil {
@@ -26,7 +26,7 @@ public final class ItemUtil {
         if (wrenchId == null) {
             return false;
         }
-        Item wrench = ForgeRegistries.ITEMS.getValue(wrenchId);
+        Item wrench = BuiltInRegistries.ITEM.get(wrenchId);
         return wrench != null && wrench != Items.AIR && itemStack.is(wrench);
     }
 

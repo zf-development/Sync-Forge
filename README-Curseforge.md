@@ -1,10 +1,10 @@
-![Logo](https://github.com/VTSumik/Sync-Forge/raw/main/media/logo.png)
+![Logo](https://github.com/zf-development/Sync-Forge/raw/main/media/logo.png)
 
 # Sync (Forge)
 [![CurseForge](https://img.shields.io/badge/dynamic/json?color=%23f16436&label=CurseForge&query=title&url=https%3A%2F%2Fapi.cfwidget.com%2F515365&cacheSeconds=3600)](https://www.curseforge.com/minecraft/mc-mods/sync-forge)
-[![GitHub license](https://img.shields.io/github/license/VTSumik/Sync-Forge.svg?cacheSeconds=36000)](https://github.com/VTSumik/Sync-Forge/tree/main?tab=MIT-1-ov-file)
+[![GitHub license](https://img.shields.io/github/license/zf-development/Sync-Forge.svg?cacheSeconds=36000)](https://github.com/zf-development/Sync-Forge/tree/main?tab=MIT-1-ov-file)
 
-[Sync (Forge)](https://github.com/VTSumik/Sync-Forge) is a Forge port of an [unofficial port](https://github.com/pawjwp/sync-fabric) of an [unofficial port](https://modrinth.com/mod/sync-fabric-reported) of an [unofficial reimplementation](https://modrinth.com/mod/sync-fabric) of the original [Sync](https://github.com/iChun/Sync) mod, originally developed by [iChun](https://github.com/iChun). This mod is used in the [Desolate Planet](https://modrinth.com/modpack/desolate-planet) modpack and fixes some significant bugs with the other versions.
+[Sync (Forge)](https://github.com/zf-development/Sync-Forge) is a fork of [Sync-Forge by VTSumik](https://github.com/VTSumik/Sync-Forge), which is a Forge port of an [unofficial port](https://github.com/pawjwp/sync-fabric) of an [unofficial port](https://modrinth.com/mod/sync-fabric-reported) of an [unofficial reimplementation](https://modrinth.com/mod/sync-fabric) of the original [Sync](https://github.com/iChun/Sync) mod, originally developed by [iChun](https://github.com/iChun). This mod is used in the [Desolate Planet](https://modrinth.com/modpack/desolate-planet) modpack and fixes some significant bugs with the other versions.
 
 The original description says it all:
 
@@ -14,7 +14,7 @@ However, what they lack, is a mind to control them. That’s where the player co
 
 ----
 
-(The Curseforge description doesn't support all the markdown options that other platforms do, see the description on [Github](https://github.com/VTSumik/Sync-Forge) for the best representation.)
+(The Curseforge description doesn't support all the markdown options that other platforms do, see the description on [Github](https://github.com/zf-development/Sync-Forge) for the best representation.)
 
 ## How to play
 
@@ -23,13 +23,13 @@ However, what they lack, is a mind to control them. That’s where the player co
  **⚠️WARNING: with the default config, this action will KILL you!** In order to create a shell with full health, the constructor must absorb 20HP *(40 for Hardcore players)*. If you don't want to die, you can eat a golden apple to increase your maximum health, or you can hold a totem of undying during the process *(which is the only option for Hardcore players)*.
 - The shell constructor needs power to work, so put a `treadmill` next to it *(it should touch any side of any part of the shell constructor)* and lure a `pig` or a `wolf` to its center to start generating piggawatts.\
  You should end up with something like this:
- ![Example of working shell constructor](https://github.com/VTSumik/Sync-Forge/raw/main/media/shell_constructor-showcase.png)\
+ ![Example of working shell constructor](https://github.com/zf-development/Sync-Forge/raw/main/media/shell_constructor-showcase.png)\
 (You don't really need a comparator, it's here just to demonstrate that you can determine progress of the shell construction process via strength of the comparator output.)
 - Once your new shell is constructed, you need to craft a `shell storage` and place it down.
 - Supply it with `redstone power`.
 - Once doors of the shell storage are open, you can `walk into it`.
 - You'll see a radial `menu` that displays your shells:
- ![Menu example](https://github.com/VTSumik/Sync-Forge/raw/main/media/menu-showcase.png)
+ ![Menu example](https://github.com/zf-development/Sync-Forge/raw/main/media/menu-showcase.png)
 - `Select` the shell you want to transfer your mind into, and enjoy the process!
 
  ## Notes
@@ -52,19 +52,19 @@ However, what they lack, is a mind to control them. That’s where the player co
 
 #### Sync Core:
 
-![Sync Core: Daylight Detector + Lapis Block + Daylight Detector + Quartz + Ender Pearl + Quartz + Emerald + Redstone Block + Emerald](https://github.com/VTSumik/Sync-Forge/raw/main/media/sync_core-recipe.png)
+![Sync Core: Daylight Detector + Lapis Block + Daylight Detector + Quartz + Ender Pearl + Quartz + Emerald + Redstone Block + Emerald](https://github.com/zf-development/Sync-Forge/raw/main/media/sync_core-recipe.png)
 
 #### Shell Constructor:
 
-![Shell Constructor: Gray Concrete + Sync Core + Gray Concrete + Glass Pane + Glass Pane + Glass Pane + Gray Concrete + Redstone + Gray Concrete](https://github.com/VTSumik/Sync-Forge/raw/main/media/shell_constructor-recipe.png)
+![Shell Constructor: Gray Concrete + Sync Core + Gray Concrete + Glass Pane + Glass Pane + Glass Pane + Gray Concrete + Redstone + Gray Concrete](https://github.com/zf-development/Sync-Forge/raw/main/media/shell_constructor-recipe.png)
 
 #### Shell Storage:
 
-![Shell Storage: Gray Concrete + Sync Core + Gray Concrete + Glass Pane + Iron Block + Glass Pane + Gray Concrete + Heavy Weighted Pressure Plate + Gray Concrete](https://github.com/VTSumik/Sync-Forge/raw/main/media/shell_storage-recipe.png)
+![Shell Storage: Gray Concrete + Sync Core + Gray Concrete + Glass Pane + Iron Block + Glass Pane + Gray Concrete + Heavy Weighted Pressure Plate + Gray Concrete](https://github.com/zf-development/Sync-Forge/raw/main/media/shell_storage-recipe.png)
 
 #### Treadmill:
 
-![Treadmill: Air + Air + Daylight Detector + Gray Carpet + Gray Carpet + Iron Bars + Gray Concrete + Gray Concrete + Redstone](https://github.com/VTSumik/Sync-Forge/raw/main/media/treadmill-recipe.png)
+![Treadmill: Air + Air + Daylight Detector + Gray Carpet + Gray Carpet + Iron Bars + Gray Concrete + Gray Concrete + Redstone](https://github.com/zf-development/Sync-Forge/raw/main/media/treadmill-recipe.png)
 
 ----
 
@@ -183,7 +183,7 @@ You can edit any of these values directly in the config file or via [ModMenu](ht
 
 [![Crowdin](https://badges.crowdin.net/sync-fabric/localized.svg)](https://crowdin.com/project/sync-fabric)
 
-[Sync (Forge)](https://github.com/VTSumik/Sync-Forge) makes use of crowd sourced translations.
+[Sync (Forge)](https://github.com/zf-development/Sync-Forge) makes use of crowd sourced translations.
 
 You can help translate the mod to additional languages here: [crowdin.com](https://crowdin.com/project/sync-fabric).
 
@@ -203,6 +203,7 @@ You can download the mod from:
 
 ## License
 
+This is a fork of [Sync-Forge by VTSumik](https://github.com/VTSumik/Sync-Forge).\
 Created by [Kir_Antipov](https://github.com/Kir-Antipov), licensed under MIT license.\
 Originally made by [iChun](https://github.com/iChun) under GNU LGPLv3 license.
 

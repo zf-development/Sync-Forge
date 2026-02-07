@@ -2,9 +2,9 @@
 
 # Sync (Forge)
 [![CurseForge](https://img.shields.io/badge/dynamic/json?color=%23f16436&label=CurseForge&query=title&url=https%3A%2F%2Fapi.cfwidget.com%2F515365&cacheSeconds=3600)](https://www.curseforge.com/minecraft/mc-mods/sync-forge)
-[![GitHub license](https://img.shields.io/github/license/VTSumik/Sync-Forge.svg?cacheSeconds=36000)](https://github.com/VTSumik/Sync-Forge/tree/main?tab=MIT-1-ov-file)
+[![GitHub license](https://img.shields.io/github/license/zf-development/Sync-Forge.svg?cacheSeconds=36000)](https://github.com/zf-development/Sync-Forge/tree/main?tab=MIT-1-ov-file)
 
-[Sync (Forge)](https://github.com/VTSumik/Sync-Forge) is a Forge port of an [unofficial port](https://github.com/pawjwp/sync-fabric) of an [unofficial port](https://modrinth.com/mod/sync-fabric-reported) of an [unofficial reimplementation](https://modrinth.com/mod/sync-fabric) of the original [Sync](https://github.com/iChun/Sync) mod, originally developed by [iChun](https://github.com/iChun). This mod is used in the [Desolate Planet](https://modrinth.com/modpack/desolate-planet) modpack and fixes some significant bugs with the other versions.
+[Sync (Forge)](https://github.com/zf-development/Sync-Forge) is a fork of [Sync-Forge by VTSumik](https://github.com/VTSumik/Sync-Forge), which is a Forge port of an [unofficial port](https://github.com/pawjwp/sync-fabric) of an [unofficial port](https://modrinth.com/mod/sync-fabric-reported) of an [unofficial reimplementation](https://modrinth.com/mod/sync-fabric) of the original [Sync](https://github.com/iChun/Sync) mod, originally developed by [iChun](https://github.com/iChun). This mod is used in the [Desolate Planet](https://modrinth.com/modpack/desolate-planet) modpack and fixes some significant bugs with the other versions.
 
 The original description says it all:
 
@@ -182,7 +182,7 @@ You can edit any of these values directly in the config file or via [ModMenu](ht
 
 [![Crowdin](https://badges.crowdin.net/sync-fabric/localized.svg)](https://crowdin.com/project/sync-fabric)
 
-[Sync (Forge)](https://github.com/VTSumik/Sync-Forge) makes use of crowd sourced translations.
+[Sync (Forge)](https://github.com/zf-development/Sync-Forge) makes use of crowd sourced translations.
 
 You can help translate the mod to additional languages here: [crowdin.com](https://crowdin.com/project/sync-fabric).
 
@@ -210,7 +210,7 @@ Requirements:
 ### Linux/MacOS
 
 ```cmd
-git https://github.com/VTSumik/Sync-Forge.git
+git clone https://github.com/zf-development/Sync-Forge.git
 cd Sync-Forge
 
 chmod +x ./gradlew
@@ -220,7 +220,7 @@ cd build/libs
 ### Windows
 
 ```cmd
-git clone hhttps://github.com/VTSumik/Sync-Forge.git
+git clone https://github.com/zf-development/Sync-Forge.git
 cd Sync-Forge
 
 gradlew build
@@ -231,6 +231,7 @@ cd build/libs
 
 ## License
 
+This is a fork of [Sync-Forge by VTSumik](https://github.com/VTSumik/Sync-Forge).\
 Created by [Kir_Antipov](https://github.com/Kir-Antipov), licensed under MIT license.\
 Originally made by [iChun](https://github.com/iChun) under GNU LGPLv3 license.
 
